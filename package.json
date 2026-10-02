@@ -1,0 +1,29 @@
+{
+  "name": "stackd-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stackd \u2014 neo-brutalist marketing site for a fictional invoicing tool.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && node scripts/flatten-rsc.mjs",
+    "preview": "serve out -l 4173",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^18.0.14",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "postcss": "^8.5.28",
+    "serve": "^14.2.6",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3"
+  }
+}
